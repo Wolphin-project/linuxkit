@@ -10,7 +10,7 @@ RETRIES=${RETRIES:-"-1"}
 WAIT=${WAIT:=10}
 [ -n "$DEBUG" ] && set -x
 
-# keep retrying until docker is ready or we hit our limut
+# keep retrying until docker is ready or we hit our limit
 retry_or_fail() {
   local retry_count=0
   local success=1

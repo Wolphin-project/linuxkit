@@ -3,7 +3,7 @@
 The `moby` tool converts the yaml specification into one or more bootable images.
 
 A kernel image is a Docker image with a `bzImage` file for the kernel to be executed,
-and a tarball `kernel.tar` containing any modules. This is somewhat inconsistent with
+and a tarball `kernel.tar` containing all the modules. This is somewhat inconsistent with
 the other images (see below) and may be changed. The kernel build is in the
 [`kernel/`](../kernel/) directory.
 
